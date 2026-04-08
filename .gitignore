@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# env files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+etl/__pycache__/
+.venv/
+venv/
+
+# misc
+.DS_Store
+*.log
