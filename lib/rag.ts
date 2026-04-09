@@ -78,3 +78,13 @@ export function buildContext(courses: Course[]): string {
     )
     .join('\n\n---\n\n');
 }
+
+/**
+ * Full RAG pipeline: rank courses, serialize, wrap in <courses> tags.
+ * Returns a prompt-ready XML fragment. Never calls GCP — courses are injected by the caller.
+ */
+export function ragPipeline(question: string, courses: Course[], topK = 4): string {
+  const relevant = findRelevantCourses(question, courses, topK);
+  const context = buildContext(relevant);
+  return `<courses>\n${context}\n</courses>`;
+}
