@@ -73,7 +73,10 @@ def parse_course(path: Path, semester: int) -> dict[str, Any]:
         "semester": semester,
         "credits": int(post.get("credits", 3)),
         "description": str(post.get("description", "")),
-        "tools": _list_items(content, "Tools & Technologies"),
+        "tools": (
+            _list_items(content, "Tools") or
+            _list_items(content, "Tools & Technologies")
+        ),
         "topics": _list_items(content, "Topics"),
         "projects": _projects(content),
         "prerequisites": _list_items(content, "Prerequisites"),
