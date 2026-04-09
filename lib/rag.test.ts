@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { findRelevantCourses } from './rag';
+import { findRelevantCourses, ragPipeline } from './rag';
 import type { Course } from './types';
 
 function makeCourse(code: string): Course {
@@ -34,5 +34,24 @@ describe('findRelevantCourses', () => {
     const question = 'machine learning deep neural networks python tensorflow AIDI-1000';
     const results = findRelevantCourses(question, [lowMatch, ...highScorers], 4);
     expect(results.map((c) => c.code)).toContain('AIDI-1000');
+  });
+});
+
+describe('ragPipeline', () => {
+  it('wraps output in <courses> tags', () => {
+    const result = ragPipeline('anything', [makeCourse('AIDI-2000')]);
+    expect(result).toMatch(/^<courses>/);
+    expect(result).toMatch(/<\/courses>$/);
+  });
+
+  it('includes the explicitly mentioned course code in the output', () => {
+    const courses = [makeCourse('AIDI-2000'), makeCourse('AIDI-2001'), makeCourse('AIDI-2002')];
+    const result = ragPipeline('Tell me about AIDI-2001', courses);
+    expect(result).toContain('AIDI-2001');
+  });
+
+  it('returns well-formed tags even with an empty course list', () => {
+    const result = ragPipeline('anything', []);
+    expect(result).toBe('<courses>\n\n</courses>');
   });
 });
