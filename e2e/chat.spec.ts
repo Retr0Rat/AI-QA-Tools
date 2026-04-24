@@ -14,4 +14,8 @@ test('submitting a course question returns a non-empty assistant response', asyn
   const assistantMessage = page.locator('.bg-white.border.border-gray-200.text-gray-800').last();
   await expect(assistantMessage).not.toBeEmpty({ timeout: 30_000 });
   await expect(assistantMessage).toContainText(/\w+/);
+
+  // Response must not begin with an error indicator
+  const text = await assistantMessage.textContent();
+  expect(text?.trimStart()).not.toMatch(/^(Error|error|Failed|failed|Sorry, something went wrong)/);
 });

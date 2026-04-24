@@ -1,0 +1,156 @@
+[
+  {
+    "id": "rep-tools-aidi2000",
+    "category": "representative",
+    "question": "What tools does AIDI-2000 use?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2000",
+        "name": "Deep Learning and Neural Networks"
+      },
+      {
+        "code": "AIDI-1100",
+        "name": "Introduction to AI Development"
+      },
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      }
+    ],
+    "score": 1.0,
+    "passed": true,
+    "response": "**AIDI-2000: Deep Learning and Neural Networks** uses the following tools:\n\n1. **Python 3.x**\n2. **TensorFlow 2.x / Keras**\n3. **PyTorch**\n4. **CUDA / cuDNN** (GPU acceleration)\n5. **Hugging Face Transformers** (introductory)\n6. **Weights & Biases (W&B)** \u2014 experiment tracking\n7. **Google Colab** (GPU runtimes)\n8. **TensorBoard**\n9. **ONNX** (model export)\n10. **NumPy**\n11. **Matplotlib / Seaborn**\n\nThis course provides a robust toolkit covering deep learning frameworks, GPU acceleration, experiment tracking, visualization, and model export capabilities."
+  },
+  {
+    "id": "rep-capstone-deliverables",
+    "category": "representative",
+    "question": "What are the deliverables for the AIDI-2005 capstone project?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2005",
+        "name": "AI Capstone Project"
+      },
+      {
+        "code": "AIDI-1003",
+        "name": "Capstone Term I"
+      },
+      {
+        "code": "AIDI-2000",
+        "name": "Deep Learning and Neural Networks"
+      }
+    ],
+    "score": 1.0,
+    "passed": true,
+    "response": "## AIDI-2005 AI Capstone Project \u2013 Deliverables\n\nThe capstone project in **AIDI-2005** requires the following deliverables:\n\n1. **Working Software System** \u2013 A fully deployed and demo-able AI solution.\n2. **GitHub Repository** \u2013 Complete with documentation and CI/CD pipeline.\n3. **Technical Report** \u2013 A comprehensive write-up of 15\u201320 pages.\n4. **Poster and Live Presentation** \u2013 Presented at the end-of-semester showcase.\n5. **Ethics and Impact Statement** \u2013 Documenting the ethical considerations and societal impact of the solution.\n\nThese deliverables ensure students demonstrate not only technical proficiency but also strong documentation, communication, and ethical awareness skills \u2014 all essential for production-ready AI work."
+  },
+  {
+    "id": "rep-semester-aidi2003",
+    "category": "representative",
+    "question": "What semester is AIDI-2003 offered in?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2003",
+        "name": "MLOps and AI in Production"
+      },
+      {
+        "code": "AIDI-1003",
+        "name": "Capstone Term I"
+      },
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      }
+    ],
+    "score": 0.667,
+    "passed": true,
+    "response": "**AIDI-2003: MLOps and AI in Production** is offered in **Semester 2**."
+  },
+  {
+    "id": "rep-semester1-courses",
+    "category": "representative",
+    "question": "What courses are in Semester 1 of the AIDI program?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      },
+      {
+        "code": "AIDI-1001",
+        "name": "Visualisation and Data Storytelling"
+      },
+      {
+        "code": "AIDI-1002",
+        "name": "AI Algorithms I"
+      }
+    ],
+    "score": 1.0,
+    "passed": true,
+    "response": "# Semester 1 Courses \u2013 AIDI Program\n\nHere are all the courses offered in **Semester 1** of Durham College's AI Analysis and Design program:\n\n| Code | Course Name | Credits |\n|------|-------------|---------|\n| **AIDI-1000** | Studies in Artificial Intelligence | 3 |\n| **AIDI-1001** | Visualisation and Data Storytelling | 3 |\n| **AIDI-1002** | AI Algorithms I | 3 |\n| **AIDI-1003** | Capstone Term I | 3 |\n| **AIDI-1100** | Introduction to AI Development | 3 |\n| **MATH-1111** | Applied Mathematics for AI Systems | 3 |\n\nThat's **6 courses** totaling **18 credits** in the first semester. The courses cover a well-rounded foundation including:\n\n- **AI fundamentals** (history, subfields, and applications)\n- **Mathematics** (linear algebra, calculus, probability & statistics)\n- **Core algorithms** (search, optimization, supervised & unsupervised learning)\n- **Data visualization** and storytelling\n- **Development tools & workflows** (Git, GitHub, Docker, cloud platforms)\n- **A team capstone project** to apply everything learned\n\nFeel free to ask if you'd like more details about any specific course!"
+  },
+  {
+    "id": "rep-prerequisites-aidi2004",
+    "category": "representative",
+    "question": "What are the prerequisites for AIDI-2004?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2004",
+        "name": "Generative AI and Large Language Models"
+      },
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      },
+      {
+        "code": "AIDI-1001",
+        "name": "Visualisation and Data Storytelling"
+      }
+    ],
+    "score": 1.0,
+    "passed": true,
+    "response": "The prerequisites for **AIDI-2004: Generative AI and Large Language Models** are:\n\n1. **AIDI-2000** \u2013 Deep Learning and Neural Networks\n2. **AIDI-2001** \u2013 Natural Language Processing\n\nYou must complete both of these courses before enrolling in AIDI-2004."
+  },
+  {
+    "id": "failure-vague",
+    "category": "failure",
+    "question": "What do students study in the AIDI program?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2000",
+        "name": "Deep Learning and Neural Networks"
+      },
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      },
+      {
+        "code": "AIDI-1001",
+        "name": "Visualisation and Data Storytelling"
+      }
+    ],
+    "score": 0.5,
+    "passed": false,
+    "response": "# What Students Study in the AIDI Program\n\nThe **Artificial Intelligence Analysis and Design (AIDI)** post-graduate certificate program at Durham College covers a range of AI topics across multiple semesters. Based on the curriculum data I have, here's an overview:\n\n---\n\n## Semester 1 \u2013 Foundations\n\n- **AIDI-1000: Studies in Artificial Intelligence** \u2013 Explores the history, current trends, subfields, and future directions of AI, along with real-world industry applications.\n\n- **AIDI-1001: Visualisation and Data Storytelling** \u2013 Covers data visualization principles, dashboard design, and communicating AI insights effectively using tools like Tableau and Python.\n\n- **AIDI-1002: AI Algorithms I** \u2013 Introduces foundational AI algorithms including search, optimization, supervised/unsupervised learning, and model evaluation using scikit-learn and Python.\n\n---\n\n## Semester 2 \u2013 Advanced Topics\n\n- **AIDI-2000: Deep Learning and Neural Networks** \u2013 A comprehensive dive into deep learning, covering:\n  - CNNs, RNNs, LSTMs, GRUs, and Transformers\n  - GANs, autoencoders, and variational autoencoders\n  - Transfer learning and fine-tuning (ResNet, VGG, EfficientNet)\n  - Attention mechanisms and the Transformer architecture\n  - Model optimization (pruning, quantization, distillation)\n  - GPU acceleration and mixed-precision training\n  - Hands-on projects using **TensorFlow, PyTorch, Hugging Face**, and more\n\n---\n\n## Key Skills & Tools Across the Program\n\nStudents gain hands-on experience with tools such as **Python, TensorFlow, PyTorch, scikit-learn, Tableau, Hugging Face Transformers, Weights & Biases, Google Colab, TensorBoard**, and others.\n\n---\n\n> **Note:** This overview is based on the course data I currently have available. The full AIDI program may include additional courses (e.g., mathematics for machine learning, capstone projects, NLP, etc.) that aren't in my current dataset. For the complete program outline, I'd recommend visiting **durhamcollege.ca**."
+  },
+  {
+    "id": "failure-outofscope",
+    "category": "failure",
+    "question": "What is the tuition fee for the AIDI program and when does the next intake start?",
+    "retrieved_chunks": [
+      {
+        "code": "AIDI-2005",
+        "name": "AI Capstone Project"
+      },
+      {
+        "code": "AIDI-1000",
+        "name": "Studies in Artificial Intelligence"
+      },
+      {
+        "code": "AIDI-1001",
+        "name": "Visualisation and Data Storytelling"
+      }
+    ],
+    "score": 0.75,
+    "passed": true,
+    "response": "I don't have information about tuition fees or program costs. Please visit durhamcollege.ca or contact Durham College admissions for fee information.\n\nI don't have information about intake dates or application deadlines. Please visit durhamcollege.ca or contact Durham College admissions for current intake information.\n\nHowever, I'd be happy to answer any questions you have about the AIDI program's courses, tools, topics, or projects!"
+  }
+]

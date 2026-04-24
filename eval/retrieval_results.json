@@ -1,0 +1,65 @@
+{
+  "hit_rate": 1.0,
+  "cases": [
+    {
+      "id": "rep-tools-aidi2000",
+      "question": "What tools does AIDI-2000 use?",
+      "retrieved_codes": [
+        "AIDI-2000",
+        "AIDI-1100",
+        "AIDI-1000"
+      ],
+      "keyword_hit": true,
+      "code_hit": true,
+      "hit": true
+    },
+    {
+      "id": "rep-capstone-deliverables",
+      "question": "What are the deliverables for the AIDI-2005 capstone project?",
+      "retrieved_codes": [
+        "AIDI-2005",
+        "AIDI-1003",
+        "AIDI-2000"
+      ],
+      "keyword_hit": true,
+      "code_hit": true,
+      "hit": true
+    },
+    {
+      "id": "rep-semester-aidi2003",
+      "question": "What semester is AIDI-2003 offered in?",
+      "retrieved_codes": [
+        "AIDI-2003",
+        "AIDI-1003",
+        "AIDI-1000"
+      ],
+      "keyword_hit": true,
+      "code_hit": true,
+      "hit": true
+    },
+    {
+      "id": "rep-semester1-courses",
+      "question": "What courses are in Semester 1 of the AIDI program?",
+      "retrieved_codes": [
+        "AIDI-1003",
+        "AIDI-2005",
+        "AIDI-1000"
+      ],
+      "keyword_hit": true,
+      "code_hit": true,
+      "hit": true
+    },
+    {
+      "id": "rep-prerequisites-aidi2004",
+      "question": "What are the prerequisites for AIDI-2004?",
+      "retrieved_codes": [
+        "AIDI-2004",
+        "AIDI-1000",
+        "AIDI-1001"
+      ],
+      "keyword_hit": true,
+      "code_hit": true,
+      "hit": true
+    }
+  ]
+}

@@ -8,6 +8,8 @@ export const OUT_OF_SCOPE_RESPONSES = {
   scheduling:   "I can only answer questions about course content and curriculum. For scheduling information, please visit the Durham College website or contact the registrar.",
   instructors:  "I don't have information about instructors. Please check the Durham College website or DC Connect for faculty information.",
   registration: "For registration or enrollment questions, please contact Durham College admissions or visit durhamcollege.ca.",
+  fees:         "I don't have information about tuition fees or program costs. Please visit durhamcollege.ca or contact Durham College admissions for fee information.",
+  intake:       "I don't have information about intake dates or application deadlines. Please visit durhamcollege.ca or contact Durham College admissions for current intake information.",
   offTopic:     "I'm only able to answer questions about Durham College's AI post-graduate certificate program. Please ask me about courses, tools, topics, or projects in the AIDI program.",
 } as const;
 
@@ -28,6 +30,8 @@ Out-of-scope handling:
 - If the user asks about class schedules, timetables, or room assignments, respond: "${OUT_OF_SCOPE_RESPONSES.scheduling}"
 - If the user asks about professor or instructor information, respond: "${OUT_OF_SCOPE_RESPONSES.instructors}"
 - If the user asks about registration, enrollment, or waitlists, respond: "${OUT_OF_SCOPE_RESPONSES.registration}"
+- If the user asks about tuition, fees, or program cost, respond: "${OUT_OF_SCOPE_RESPONSES.fees}"
+- If the user asks about intake dates, application deadlines, or when the program starts, respond: "${OUT_OF_SCOPE_RESPONSES.intake}"
 - If the user asks anything unrelated to the DC AI program (weather, general knowledge, other subjects), respond: "${OUT_OF_SCOPE_RESPONSES.offTopic}"`;
 
 /**

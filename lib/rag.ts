@@ -42,18 +42,27 @@ function scoreRelevance(question: string, course: Course): number {
 /**
  * Return the topK most relevant courses for the question.
  * Always includes any course whose code is explicitly mentioned.
+ * If the question references "semester N", all courses of that semester are included.
  */
 export function findRelevantCourses(question: string, courses: Course[], topK = 4): Course[] {
   // Always include exact code matches regardless of score
   const explicit = courses.filter((c) => question.toUpperCase().includes(c.code));
+
+  // Include all courses of an explicitly mentioned semester number
+  const semMatch = question.match(/semester\s+(\d)/i);
+  const semesterExplicit = semMatch
+    ? courses.filter((c) => c.semester === parseInt(semMatch[1], 10))
+    : [];
 
   const ranked = [...courses]
     .map((c) => ({ course: c, score: scoreRelevance(question, c) }))
     .sort((a, b) => b.score - a.score)
     .map((s) => s.course);
 
-  const merged = [...new Map([...explicit, ...ranked].map((c) => [c.code, c])).values()];
-  return merged.slice(0, Math.max(topK, explicit.length));
+  const merged = [
+    ...new Map([...explicit, ...semesterExplicit, ...ranked].map((c) => [c.code, c])).values(),
+  ];
+  return merged.slice(0, Math.max(topK, explicit.length, semesterExplicit.length));
 }
 
 /** Serialize courses into a compact context block for the prompt. */

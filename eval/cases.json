@@ -1,0 +1,51 @@
+[
+  {
+    "id": "rep-tools-aidi2000",
+    "question": "What tools does AIDI-2000 use?",
+    "expected_topics": ["TensorFlow", "PyTorch", "CUDA", "W&B", "TensorBoard", "Hugging Face"],
+    "category": "representative",
+    "notes": "AIDI-2000 has an explicit tools list. The course code is in the question so it should always be retrieved."
+  },
+  {
+    "id": "rep-capstone-deliverables",
+    "question": "What are the deliverables for the AIDI-2005 capstone project?",
+    "expected_topics": ["technical report", "GitHub", "poster", "presentation", "working"],
+    "category": "representative",
+    "notes": "AIDI-2005 lists deliverables explicitly. Tests whether the model reads the Deliverables section."
+  },
+  {
+    "id": "rep-semester-aidi2003",
+    "question": "What semester is AIDI-2003 offered in?",
+    "expected_topics": ["2", "second", "semester"],
+    "category": "representative",
+    "notes": "Direct factual lookup. AIDI-2003 is semester 2. Code mention guarantees retrieval."
+  },
+  {
+    "id": "rep-semester1-courses",
+    "question": "What courses are in Semester 1 of the AIDI program?",
+    "expected_topics": ["AIDI-1000", "AIDI-1001", "AIDI-1002", "AIDI-1003", "AIDI-1100", "MATH-1111"],
+    "category": "representative",
+    "notes": "Requires listing all 6 semester-1 courses. With k=4 retrieval, the system may miss some courses."
+  },
+  {
+    "id": "rep-prerequisites-aidi2004",
+    "question": "What are the prerequisites for AIDI-2004?",
+    "expected_topics": ["AIDI-2000", "AIDI-2001"],
+    "category": "representative",
+    "notes": "AIDI-2004 has exactly two prerequisites. Tests direct factual lookup from structured field."
+  },
+  {
+    "id": "failure-vague",
+    "question": "What do students study in the AIDI program?",
+    "expected_topics": ["deep learning", "NLP", "computer vision", "MLOps", "capstone", "generative"],
+    "category": "failure",
+    "notes": "Vague question with no course code. Retrieval returns top-4 of 12 courses so the answer will be incomplete. Expected to score below threshold."
+  },
+  {
+    "id": "failure-outofscope",
+    "question": "What is the tuition fee for the AIDI program and when does the next intake start?",
+    "expected_topics": ["contact", "admissions", "durhamcollege", "registrar"],
+    "category": "failure",
+    "notes": "Out-of-scope question about fees and intake dates. System should refuse and redirect to admissions. May hallucinate if out-of-scope handling is weak."
+  }
+]

@@ -2,11 +2,23 @@ import { describe, it, expect } from 'vitest';
 import { OUT_OF_SCOPE_RESPONSES, BASE_SYSTEM, buildSystemPrompt } from './prompts';
 
 describe('OUT_OF_SCOPE_RESPONSES', () => {
-  const REQUIRED_KEYS = ['grades', 'scheduling', 'instructors', 'registration', 'offTopic'] as const;
+  const REQUIRED_KEYS = [
+    'grades', 'scheduling', 'instructors', 'registration', 'fees', 'intake', 'offTopic',
+  ] as const;
 
   it.each(REQUIRED_KEYS)('"%s" key exists and is a non-empty string', (key) => {
     expect(typeof OUT_OF_SCOPE_RESPONSES[key]).toBe('string');
     expect(OUT_OF_SCOPE_RESPONSES[key].length).toBeGreaterThan(0);
+  });
+});
+
+describe('BASE_SYSTEM out-of-scope coverage', () => {
+  it('contains a refusal for tuition / fees questions', () => {
+    expect(BASE_SYSTEM.toLowerCase()).toMatch(/tuition|fees|program cost/);
+  });
+
+  it('contains a refusal for intake / application deadline questions', () => {
+    expect(BASE_SYSTEM.toLowerCase()).toMatch(/intake|application deadline|when the program starts/);
   });
 });
 

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "rep-tools-aidi2000",
+    "category": "representative",
+    "question": "What tools does AIDI-2000 use?",
+    "retrieved_chunks": [],
+    "score": 0.0,
+    "passed": false,
+    "response": "I don't have any course data available to reference for AIDI-2000 or any other courses at this time. Without the specific course information loaded, I'm unable to accurately list the tools used in that course.\n\nI want to make sure I give you accurate information rather than guessing. I'd recommend:\n\n- Checking **DC Connect** for the most up-to-date course outline for AIDI-2000\n- Contacting the **Durham College School of AI** directly for curriculum details\n\nIf you have any other questions about the AIDI program that I might be able to help with, feel free to ask!"
+  },
+  {
+    "id": "rep-capstone-deliverables",
+    "category": "representative",
+    "question": "What are the deliverables for the AIDI-2005 capstone project?",
+    "retrieved_chunks": [],
+    "score": 0.0,
+    "passed": false,
+    "response": "I don't have any course data available to reference for AIDI-2005 or its capstone project deliverables. My course database appears to be empty, so I'm unable to provide accurate details about the specific deliverables for that course.\n\nI'd recommend the following to get this information:\n\n- **Check DC Connect** for the most up-to-date course outline and project requirements for AIDI-2005.\n- **Contact your program coordinator** for detailed information about capstone deliverables.\n- **Visit the Durham College website** at **durhamcollege.ca** for program-specific details.\n\nIf you have any other questions about the AIDI program that I might be able to help with, feel free to ask!"
+  },
+  {
+    "id": "rep-semester-aidi2003",
+    "category": "representative",
+    "question": "What semester is AIDI-2003 offered in?",
+    "retrieved_chunks": [],
+    "score": 0.667,
+    "passed": true,
+    "response": "I don't have any course data available to look up information about AIDI-2003. The course data provided to me is currently empty, so I'm unable to confirm which semester AIDI-2003 is offered in or provide details about its content.\n\nI'd recommend checking the Durham College website at **durhamcollege.ca** or contacting the program coordinator for the most accurate and up-to-date information about the AIDI program's course schedule and semester offerings."
+  },
+  {
+    "id": "rep-semester1-courses",
+    "category": "representative",
+    "question": "What courses are in Semester 1 of the AIDI program?",
+    "retrieved_chunks": [],
+    "score": 0.0,
+    "passed": false,
+    "response": "I appreciate your interest in the AIDI program at Durham College! Unfortunately, I don't currently have the course data loaded to provide you with the specific list of Semester 1 courses.\n\nI want to give you accurate information rather than guess, so I'd recommend the following options to find the Semester 1 course details:\n\n- **Visit the Durham College website** at [durhamcollege.ca](https://durhamcollege.ca) and look up the **Artificial Intelligence Analysis and Design (AIDI)** program page, which typically lists the full program map by semester.\n- **Contact Durham College admissions** or the program coordinator for the most up-to-date curriculum information.\n\nIf you have questions about a specific course (e.g., by course code), feel free to ask and I'll do my best to help with whatever data I have available!"
+  },
+  {
+    "id": "rep-prerequisites-aidi2004",
+    "category": "representative",
+    "question": "What are the prerequisites for AIDI-2004?",
+    "retrieved_chunks": [],
+    "score": 0.0,
+    "passed": false,
+    "response": "I don't have detailed information about the prerequisites for AIDI-2004 in my current course data. The course data provided to me doesn't contain prerequisite details for this course.\n\nFor accurate prerequisite information for AIDI-2004, I'd recommend:\n\n- Visiting the **Durham College website** at **durhamcollege.ca**\n- Checking the official **AIDI program page** or course outline\n- Contacting the **Durham College registrar** or **student services**\n\nIs there anything else about the AIDI program's courses, tools, topics, or projects that I can help you with?"
+  },
+  {
+    "id": "failure-vague",
+    "category": "failure",
+    "question": "What do students study in the AIDI program?",
+    "retrieved_chunks": [],
+    "score": 0.667,
+    "passed": true,
+    "response": "# Durham College AI Analysis and Design (AIDI) Program\n\nThank you for your interest in the AIDI program! Unfortunately, I don't currently have the detailed course data loaded to provide you with a comprehensive and accurate breakdown of all the specific courses, tools, and topics covered in the program.\n\nHowever, I can share that the **Artificial Intelligence Analysis and Design (AIDI)** post-graduate certificate program at Durham College is designed to cover key areas in AI, which typically include topics such as:\n\n- **Machine Learning & Deep Learning**\n- **Data Analysis & Visualization**\n- **Natural Language Processing (NLP)**\n- **Computer Vision**\n- **AI Ethics and Responsible AI**\n- **Programming for AI** (e.g., Python)\n- **Database Management**\n- **Capstone/Applied Projects**\n\nSince I don't have the specific course data available right now to give you exact course codes, detailed descriptions, tools, and project information, I'd recommend:\n\n1. **Visiting Durham College's website** at [durhamcollege.ca](https://durhamcollege.ca) for the most up-to-date program outline\n2. **Contacting the School of AI** or the program coordinator for detailed curriculum information\n\nIf you have specific questions about a particular course (e.g., a course code like AIDI-1000), feel free to ask and I'll do my best to help with whatever data I have available!"
+  },
+  {
+    "id": "failure-outofscope",
+    "category": "failure",
+    "question": "What is the tuition fee for the AIDI program and when does the next intake start?",
+    "retrieved_chunks": [],
+    "score": 0.75,
+    "passed": true,
+    "response": "I don't have information about tuition fees or program costs. Please visit durhamcollege.ca or contact Durham College admissions for fee information.\n\nAdditionally, I don't have information about intake dates or application deadlines. Please visit durhamcollege.ca or contact Durham College admissions for current intake information.\n\nI'm happy to help with any questions you have about the AIDI program's courses, tools, topics, or projects!"
+  }
+]
