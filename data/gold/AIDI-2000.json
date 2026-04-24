@@ -1,0 +1,55 @@
+{
+  "code": "AIDI-2000",
+  "name": "Deep Learning and Neural Networks",
+  "semester": 2,
+  "credits": 3,
+  "description": "Comprehensive study of deep learning architectures and neural networks. Students design, train, and evaluate deep models for vision, sequence, and structured data tasks using TensorFlow and PyTorch.",
+  "tools": [
+    "Python 3.x",
+    "TensorFlow 2.x / Keras",
+    "PyTorch",
+    "CUDA / cuDNN (GPU acceleration)",
+    "Hugging Face Transformers (introductory)",
+    "Weights & Biases (W&B) — experiment tracking",
+    "Google Colab (GPU runtimes)",
+    "TensorBoard",
+    "ONNX (model export)",
+    "NumPy",
+    "Matplotlib / Seaborn"
+  ],
+  "topics": [
+    "Artificial Neural Networks (ANNs): architecture and backpropagation",
+    "Activation functions and initialization strategies",
+    "Regularization (dropout, batch normalization, L1/L2)",
+    "Convolutional Neural Networks (CNNs) and image classification",
+    "Transfer learning and fine-tuning pre-trained models (ResNet, VGG, EfficientNet)",
+    "Recurrent Neural Networks (RNNs), LSTMs, and GRUs",
+    "Attention mechanisms and the Transformer architecture",
+    "Autoencoders and variational autoencoders (VAEs)",
+    "Generative Adversarial Networks (GANs)",
+    "GPU acceleration and mixed-precision training",
+    "Model optimization: pruning, quantization, distillation"
+  ],
+  "projects": [
+    {
+      "name": "Project 1: Image Classifier with CNN",
+      "description": "Students design and train a CNN for a multi-class image classification task, experimenting with architecture choices and applying transfer learning from a pre-trained ImageNet model to boost accuracy.",
+      "type": "assignment"
+    },
+    {
+      "name": "Project 2: Sequence Model",
+      "description": "Build an LSTM or Transformer-based model for a sequence task of the student's choice (e.g., time-series forecasting, text generation, anomaly detection).",
+      "type": "assignment"
+    },
+    {
+      "name": "Final Project: Custom Deep Learning Solution",
+      "description": "Students independently define a real-world problem, curate or source a dataset, design a deep learning architecture, train and evaluate the model, and present findings in a demo and written report.",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "AIDI-1001: Machine Learning Fundamentals",
+    "AIDI-1003: Mathematics for Machine Learning"
+  ],
+  "raw_content": "## Overview\nThis course provides an in-depth exploration of deep learning, from the mathematics of backpropagation to state-of-the-art architectures. Students gain hands-on experience training CNNs, RNNs, Transformers, and generative models on real datasets, with attention to efficient training, regularization, and GPU acceleration.\n\n## Tools & Technologies\n- Python 3.x\n- TensorFlow 2.x / Keras\n- PyTorch\n- CUDA / cuDNN (GPU acceleration)\n- Hugging Face Transformers (introductory)\n- Weights & Biases (W&B) — experiment tracking\n- Google Colab (GPU runtimes)\n- TensorBoard\n- ONNX (model export)\n- NumPy\n- Matplotlib / Seaborn\n\n## Topics\n- Artificial Neural Networks (ANNs): architecture and backpropagation\n- Activation functions and initialization strategies\n- Regularization (dropout, batch normalization, L1/L2)\n- Convolutional Neural Networks (CNNs) and image classification\n- Transfer learning and fine-tuning pre-trained models (ResNet, VGG, EfficientNet)\n- Recurrent Neural Networks (RNNs), LSTMs, and GRUs\n- Attention mechanisms and the Transformer architecture\n- Autoencoders and variational autoencoders (VAEs)\n- Generative Adversarial Networks (GANs)\n- GPU acceleration and mixed-precision training\n- Model optimization: pruning, quantization, distillation\n\n## Projects & Capstone\n\n### Project 1: Image Classifier with CNN\nStudents design and train a CNN for a multi-class image classification task, experimenting with architecture choices and applying transfer learning from a pre-trained ImageNet model to boost accuracy.\n\n### Project 2: Sequence Model\nBuild an LSTM or Transformer-based model for a sequence task of the student's choice (e.g., time-series forecasting, text generation, anomaly detection).\n\n### Final Project: Custom Deep Learning Solution\nStudents independently define a real-world problem, curate or source a dataset, design a deep learning architecture, train and evaluate the model, and present findings in a demo and written report.\n\n## Prerequisites\n- AIDI-1001: Machine Learning Fundamentals\n- AIDI-1003: Mathematics for Machine Learning"
+}

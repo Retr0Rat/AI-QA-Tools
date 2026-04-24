@@ -1,0 +1,50 @@
+{
+  "code": "AIDI-2001",
+  "name": "Natural Language Processing",
+  "semester": 2,
+  "credits": 3,
+  "description": "Theory and practice of natural language processing. Students build NLP pipelines for text classification, entity recognition, machine translation, and question answering using classical and transformer-based approaches.",
+  "tools": [
+    "Python 3.x",
+    "NLTK (Natural Language Toolkit)",
+    "spaCy",
+    "Hugging Face Transformers (BERT, RoBERTa, DistilBERT)",
+    "Hugging Face Datasets",
+    "Gensim (Word2Vec, FastText)",
+    "scikit-learn (text features)",
+    "PyTorch",
+    "Weights & Biases",
+    "Jupyter Notebooks"
+  ],
+  "topics": [
+    "Text preprocessing: tokenization, lemmatization, stemming, stopword removal",
+    "Bag-of-Words, TF-IDF, n-gram representations",
+    "Word embeddings: Word2Vec, GloVe, FastText",
+    "Text classification and sentiment analysis",
+    "Named Entity Recognition (NER)",
+    "Part-of-speech tagging and dependency parsing",
+    "Sequence-to-sequence models",
+    "Attention and the Transformer architecture (deep dive)",
+    "BERT and fine-tuning pre-trained language models",
+    "Machine translation fundamentals",
+    "Question answering and information extraction",
+    "Ethical issues: bias in language models, misinformation"
+  ],
+  "projects": [
+    {
+      "name": "Project 1: Sentiment Analysis Pipeline",
+      "description": "Build a sentiment analysis system for product reviews. Students compare classical ML (TF-IDF + logistic regression) vs. fine-tuned BERT, analyse performance differences, and document findings.",
+      "type": "assignment"
+    },
+    {
+      "name": "Project 2: NER and Information Extraction",
+      "description": "Train a named entity recognition model on a domain-specific corpus and use it to extract structured information (e.g., extracting drug names and dosages from clinical text or extracting company/role pairs from job postings).",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "AIDI-1001: Machine Learning Fundamentals",
+    "AIDI-2000: Deep Learning and Neural Networks"
+  ],
+  "raw_content": "## Overview\nThis course covers the full spectrum of NLP, from linguistic preprocessing through classical ML approaches to modern transformer-based language models. Students implement NLP systems for real tasks and develop an understanding of how large language models are trained and used.\n\n## Tools & Technologies\n- Python 3.x\n- NLTK (Natural Language Toolkit)\n- spaCy\n- Hugging Face Transformers (BERT, RoBERTa, DistilBERT)\n- Hugging Face Datasets\n- Gensim (Word2Vec, FastText)\n- scikit-learn (text features)\n- PyTorch\n- Weights & Biases\n- Jupyter Notebooks\n\n## Topics\n- Text preprocessing: tokenization, lemmatization, stemming, stopword removal\n- Bag-of-Words, TF-IDF, n-gram representations\n- Word embeddings: Word2Vec, GloVe, FastText\n- Text classification and sentiment analysis\n- Named Entity Recognition (NER)\n- Part-of-speech tagging and dependency parsing\n- Sequence-to-sequence models\n- Attention and the Transformer architecture (deep dive)\n- BERT and fine-tuning pre-trained language models\n- Machine translation fundamentals\n- Question answering and information extraction\n- Ethical issues: bias in language models, misinformation\n\n## Projects & Capstone\n\n### Project 1: Sentiment Analysis Pipeline\nBuild a sentiment analysis system for product reviews. Students compare classical ML (TF-IDF + logistic regression) vs. fine-tuned BERT, analyse performance differences, and document findings.\n\n### Project 2: NER and Information Extraction\nTrain a named entity recognition model on a domain-specific corpus and use it to extract structured information (e.g., extracting drug names and dosages from clinical text or extracting company/role pairs from job postings).\n\n## Prerequisites\n- AIDI-1001: Machine Learning Fundamentals\n- AIDI-2000: Deep Learning and Neural Networks"
+}

@@ -16,10 +16,14 @@ out/
 __pycache__/
 *.pyc
 *.pyo
-etl/__pycache__/
+.pytest_cache/
 .venv/
 venv/
 
 # misc
 .DS_Store
 *.log
+
+# tooling artifacts
+.claude/
+test-results/

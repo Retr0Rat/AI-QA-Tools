@@ -1,0 +1,24 @@
+{
+  "code": "AIDI-1100",
+  "name": "Introduction to AI Development",
+  "semester": 1,
+  "credits": 3,
+  "description": "Practical introduction to AI development workflows, tools, and environments. Students set up and use professional AI development tools including version control, cloud platforms, and deployment basics.",
+  "tools": [
+    "Git",
+    "GitHub",
+    "Python",
+    "VS Code",
+    "Docker basics"
+  ],
+  "topics": [
+    "Development environment setup",
+    "Version control with Git and GitHub",
+    "Cloud platforms overview",
+    "API development basics",
+    "Deployment fundamentals"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nThis course bridges the gap between AI concepts and real development practice. Students learn the tools and workflows used by professional AI developers.\n\n## Topics\n- Development environment setup\n- Version control with Git and GitHub\n- Cloud platforms overview\n- API development basics\n- Deployment fundamentals\n\n## Tools\n- Git\n- GitHub\n- Python\n- VS Code\n- Docker basics\n\n## Projects\n- Development environment setup\n- Basic API deployment exercise"
+}

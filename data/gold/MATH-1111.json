@@ -1,0 +1,21 @@
+{
+  "code": "MATH-1111",
+  "name": "Applied Mathematics for AI Systems",
+  "semester": 1,
+  "credits": 3,
+  "description": "Mathematical foundations required for AI and machine learning. Covers linear algebra, calculus, probability and statistics with direct applications to AI algorithms.",
+  "tools": [
+    "Python (NumPy)",
+    "Jupyter Notebooks"
+  ],
+  "topics": [
+    "Linear algebra (vectors, matrices, transformations)",
+    "Calculus and gradients",
+    "Probability and distributions",
+    "Statistics and inference",
+    "Applications to ML algorithms"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nThis course builds the mathematical intuition and skills needed to understand and implement AI algorithms. Every topic is connected directly to its application in machine learning.\n\n## Topics\n- Linear algebra (vectors, matrices, transformations)\n- Calculus and gradients\n- Probability and distributions\n- Statistics and inference\n- Applications to ML algorithms\n\n## Tools\n- Python (NumPy)\n- Jupyter Notebooks\n\n## Projects\n- Mathematical foundations assignments\n- Applied statistics exercises"
+}

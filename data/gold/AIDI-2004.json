@@ -1,0 +1,50 @@
+{
+  "code": "AIDI-2004",
+  "name": "Generative AI and Large Language Models",
+  "semester": 2,
+  "credits": 3,
+  "description": "Theory and practice of generative AI systems, with a focus on large language models (LLMs). Students learn to prompt engineer, fine-tune, and build applications with state-of-the-art generative models.",
+  "tools": [
+    "Python 3.x",
+    "OpenAI API / Anthropic Claude API",
+    "Hugging Face Transformers and PEFT",
+    "LangChain",
+    "LlamaIndex",
+    "ChromaDB / Pinecone (vector databases)",
+    "Sentence Transformers (embeddings)",
+    "Weights & Biases",
+    "Streamlit / Gradio (rapid UI prototyping)",
+    "FastAPI",
+    "Docker"
+  ],
+  "topics": [
+    "Transformer architecture deep dive (GPT, BERT, T5)",
+    "Pre-training, instruction tuning, and RLHF",
+    "Prompt engineering: zero-shot, few-shot, chain-of-thought",
+    "Retrieval-Augmented Generation (RAG) architecture",
+    "Vector databases and semantic search",
+    "Fine-tuning and parameter-efficient fine-tuning (LoRA, QLoRA)",
+    "LLM evaluation and benchmarking",
+    "Agents and tool use with LLMs",
+    "Hallucination, safety, and alignment",
+    "Multimodal models (text + image)",
+    "Cost, latency, and scaling considerations"
+  ],
+  "projects": [
+    {
+      "name": "Project 1: RAG Application",
+      "description": "Students build a domain-specific Q&A application using RAG: ingest a document corpus, generate embeddings, store in ChromaDB, and use an LLM to answer natural language questions with cited sources.",
+      "type": "assignment"
+    },
+    {
+      "name": "Project 2: Fine-Tuned LLM",
+      "description": "Fine-tune a small open-source LLM (e.g., Mistral 7B, LLaMA 3) on a custom dataset using QLoRA. Students evaluate the base vs. fine-tuned model on a held-out test set and document the training process.",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "AIDI-2000: Deep Learning and Neural Networks",
+    "AIDI-2001: Natural Language Processing"
+  ],
+  "raw_content": "## Overview\nGenerative AI is reshaping industries. This course explores the architecture and training of LLMs, prompt engineering techniques, retrieval-augmented generation (RAG), fine-tuning strategies, and responsible deployment. Students build end-to-end LLM-powered applications.\n\n## Tools & Technologies\n- Python 3.x\n- OpenAI API / Anthropic Claude API\n- Hugging Face Transformers and PEFT\n- LangChain\n- LlamaIndex\n- ChromaDB / Pinecone (vector databases)\n- Sentence Transformers (embeddings)\n- Weights & Biases\n- Streamlit / Gradio (rapid UI prototyping)\n- FastAPI\n- Docker\n\n## Topics\n- Transformer architecture deep dive (GPT, BERT, T5)\n- Pre-training, instruction tuning, and RLHF\n- Prompt engineering: zero-shot, few-shot, chain-of-thought\n- Retrieval-Augmented Generation (RAG) architecture\n- Vector databases and semantic search\n- Fine-tuning and parameter-efficient fine-tuning (LoRA, QLoRA)\n- LLM evaluation and benchmarking\n- Agents and tool use with LLMs\n- Hallucination, safety, and alignment\n- Multimodal models (text + image)\n- Cost, latency, and scaling considerations\n\n## Projects & Capstone\n\n### Project 1: RAG Application\nStudents build a domain-specific Q&A application using RAG: ingest a document corpus, generate embeddings, store in ChromaDB, and use an LLM to answer natural language questions with cited sources.\n\n### Project 2: Fine-Tuned LLM\nFine-tune a small open-source LLM (e.g., Mistral 7B, LLaMA 3) on a custom dataset using QLoRA. Students evaluate the base vs. fine-tuned model on a held-out test set and document the training process.\n\n## Prerequisites\n- AIDI-2000: Deep Learning and Neural Networks\n- AIDI-2001: Natural Language Processing"
+}

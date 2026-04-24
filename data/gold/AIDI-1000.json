@@ -1,0 +1,21 @@
+{
+  "code": "AIDI-1000",
+  "name": "Studies in Artificial Intelligence",
+  "semester": 1,
+  "credits": 3,
+  "description": "An introduction to the history, current trends and future use cases of AI. Students explore different subfields of AI and how it is applied across industry sectors to solve real-world problems.",
+  "tools": [
+    "Python",
+    "Jupyter Notebooks"
+  ],
+  "topics": [
+    "History of AI",
+    "AI subfields and paradigms",
+    "Industry applications of AI",
+    "Current challenges in AI",
+    "Future directions and research areas"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nThis course introduces students to artificial intelligence concepts, history, and modern applications. Students examine AI through multiple lenses including machine learning, computer vision, and natural language processing.\n\n## Topics\n- History of AI\n- AI subfields and paradigms\n- Industry applications of AI\n- Current challenges in AI\n- Future directions and research areas\n\n## Tools\n- Python\n- Jupyter Notebooks\n\n## Projects\n- AI industry analysis report\n- Exploration of real-world AI use cases"
+}

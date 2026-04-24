@@ -1,0 +1,53 @@
+{
+  "code": "AIDI-2003",
+  "name": "MLOps and AI in Production",
+  "semester": 2,
+  "credits": 3,
+  "description": "Best practices and tooling for deploying, monitoring, and maintaining machine learning models in production. Students build end-to-end ML pipelines using cloud platforms and MLOps frameworks.",
+  "tools": [
+    "Python 3.x",
+    "MLflow (experiment tracking and model registry)",
+    "Kubeflow Pipelines",
+    "Google Cloud Vertex AI",
+    "Docker",
+    "Kubernetes (basics)",
+    "GitHub Actions (CI/CD)",
+    "Evidently AI (data and model monitoring)",
+    "FastAPI",
+    "Prometheus and Grafana (metrics and dashboards)",
+    "Terraform (infrastructure as code, introductory)",
+    "Weights & Biases"
+  ],
+  "topics": [
+    "The ML lifecycle: development to production",
+    "Experiment tracking and model versioning with MLflow",
+    "Automated training pipelines and DAGs",
+    "Model serving: REST, batch, and streaming inference",
+    "Containerizing ML models with Docker",
+    "Kubernetes for ML workloads",
+    "CI/CD pipelines for ML (GitHub Actions)",
+    "Feature stores and training-serving skew",
+    "Data drift and model performance monitoring",
+    "A/B testing and canary deployments",
+    "Model retraining triggers and automation",
+    "Cloud ML platforms: Vertex AI on GCP"
+  ],
+  "projects": [
+    {
+      "name": "Project 1: End-to-End MLOps Pipeline",
+      "description": "Students take a trained model from a previous course and build a full MLOps pipeline: automated retraining triggered by data drift (detected with Evidently AI), model registration in MLflow, Docker-containerized API, and a GitHub Actions deployment workflow.",
+      "type": "assignment"
+    },
+    {
+      "name": "Project 2: Monitoring Dashboard",
+      "description": "Deploy a model to GCP Vertex AI with a Prometheus + Grafana monitoring stack. Students configure alerts for latency, error rate, and prediction distribution shift, and write a runbook for on-call response.",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "AIDI-1002: Data Engineering for AI",
+    "AIDI-1004: Programming for AI Applications",
+    "AIDI-2000: Deep Learning and Neural Networks"
+  ],
+  "raw_content": "## Overview\nTraining a model is only the beginning. This course teaches students to operationalize ML systems: automated training pipelines, model registries, A/B testing, monitoring for drift, and incident response. Students work with industry-standard MLOps platforms throughout.\n\n## Tools & Technologies\n- Python 3.x\n- MLflow (experiment tracking and model registry)\n- Kubeflow Pipelines\n- Google Cloud Vertex AI\n- Docker\n- Kubernetes (basics)\n- GitHub Actions (CI/CD)\n- Evidently AI (data and model monitoring)\n- FastAPI\n- Prometheus and Grafana (metrics and dashboards)\n- Terraform (infrastructure as code, introductory)\n- Weights & Biases\n\n## Topics\n- The ML lifecycle: development to production\n- Experiment tracking and model versioning with MLflow\n- Automated training pipelines and DAGs\n- Model serving: REST, batch, and streaming inference\n- Containerizing ML models with Docker\n- Kubernetes for ML workloads\n- CI/CD pipelines for ML (GitHub Actions)\n- Feature stores and training-serving skew\n- Data drift and model performance monitoring\n- A/B testing and canary deployments\n- Model retraining triggers and automation\n- Cloud ML platforms: Vertex AI on GCP\n\n## Projects & Capstone\n\n### Project 1: End-to-End MLOps Pipeline\nStudents take a trained model from a previous course and build a full MLOps pipeline: automated retraining triggered by data drift (detected with Evidently AI), model registration in MLflow, Docker-containerized API, and a GitHub Actions deployment workflow.\n\n### Project 2: Monitoring Dashboard\nDeploy a model to GCP Vertex AI with a Prometheus + Grafana monitoring stack. Students configure alerts for latency, error rate, and prediction distribution shift, and write a runbook for on-call response.\n\n## Prerequisites\n- AIDI-1002: Data Engineering for AI\n- AIDI-1004: Programming for AI Applications\n- AIDI-2000: Deep Learning and Neural Networks"
+}

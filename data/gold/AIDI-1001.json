@@ -1,0 +1,21 @@
+{
+  "code": "AIDI-1001",
+  "name": "Visualisation and Data Storytelling",
+  "semester": 1,
+  "credits": 3,
+  "description": "Techniques for visualizing data and communicating insights effectively. Students learn to create compelling dashboards and visual narratives using industry tools.",
+  "tools": [
+    "Tableau",
+    "Python (matplotlib, seaborn)",
+    "Excel"
+  ],
+  "topics": [
+    "Data visualization principles",
+    "Dashboard design",
+    "Statistical storytelling",
+    "Visual communication of AI insights"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nStudents learn to transform raw data into meaningful visual stories. The course covers data visualization principles, dashboard design, and tools used by data professionals.\n\n## Topics\n- Data visualization principles\n- Dashboard design\n- Statistical storytelling\n- Visual communication of AI insights\n\n## Tools\n- Tableau\n- Python (matplotlib, seaborn)\n- Excel\n\n## Projects\n- Canadian Immigration Data Analysis with Tableau dashboards"
+}

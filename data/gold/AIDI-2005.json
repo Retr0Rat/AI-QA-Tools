@@ -1,0 +1,42 @@
+{
+  "code": "AIDI-2005",
+  "name": "AI Capstone Project",
+  "semester": 2,
+  "credits": 6,
+  "description": "A semester-long industry-sponsored or self-directed capstone project in which student teams design, build, and deploy a production-ready AI solution to a real-world problem. The capstone integrates skills from across the program.",
+  "tools": [
+    "Tools are team-selected based on project requirements; previous semesters' tools are available",
+    "Typical stack includes Python, TensorFlow or PyTorch, FastAPI, Docker, Kubernetes or Cloud Run",
+    "GitHub (version control and project management)",
+    "Google Cloud Platform (GCP) — Vertex AI, Cloud Run, Cloud Storage, BigQuery",
+    "MLflow or Weights & Biases (experiment tracking)",
+    "Streamlit, Gradio, or Next.js (frontend, if applicable)",
+    "Slack / Notion (team communication and documentation)"
+  ],
+  "topics": [
+    "Project scoping and requirements gathering",
+    "Agile/Scrum for AI projects",
+    "Data collection, labelling, and governance",
+    "Model selection and architecture design",
+    "Production deployment and DevOps",
+    "Stakeholder communication and demos",
+    "Technical writing and documentation",
+    "Ethical review of the solution"
+  ],
+  "projects": [
+    {
+      "name": "Capstone Project: Industry AI Solution",
+      "description": "Each team works on a unique project aligned with an industry partner's or self-defined challenge. Past capstone projects have included:\n\n- **Real-Time Inventory Demand Forecasting**: Built a time-series forecasting system using LSTMs and deployed it on GCP Vertex AI with a Streamlit dashboard for supply chain managers. The model reduced forecast error (MAE) by 23% compared to the client's existing system.\n\n- **Medical Image Screening Tool**: Developed a CNN-based screening classifier to flag potential anomalies in chest X-rays. Achieved 91% sensitivity with a custom U-Net segmentation overlay for radiologist review. Deployed as a HIPAA-aware REST API.\n\n- **Multilingual Customer Support Chatbot**: Fine-tuned a multilingual LLM (mBERT) for intent classification across English, French, and Spanish. Built a RAG-powered knowledge base and integrated with a ticketing system. Reduced first-response time by 40% in pilot testing.\n\n- **Predictive Maintenance System**: Used sensor data from manufacturing equipment to predict failures 48 hours in advance using an ensemble of gradient boosting and LSTM models. Deployed on Edge hardware with Docker for on-premises inference.\n\n- **AI-Powered Resume Screener**: Built a fair and explainable resume ranking system using NLP and SHAP-based explanations. Included a bias audit (AIF360) and produced a model card documenting fairness metrics across demographic groups.",
+      "type": "capstone"
+    },
+    {
+      "name": "Deliverables",
+      "description": "- Working software system (deployed and demo-able)\n- GitHub repository with documentation and CI/CD\n- Technical report (15–20 pages)\n- Poster and live presentation at the end-of-semester showcase\n- Ethics and impact statement",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "Completion of all Semester 1 and Semester 2 courses (excluding AIDI-2005 itself)"
+  ],
+  "raw_content": "## Overview\nThe capstone is the culminating experience of the AIDI program. Working in teams of three to four, students partner with an industry sponsor or propose their own project to solve a genuine business problem using AI. Teams follow an agile development process over 14 weeks, delivering a working system, a technical report, and a public presentation.\n\n## Tools & Technologies\n- Tools are team-selected based on project requirements; previous semesters' tools are available\n- Typical stack includes Python, TensorFlow or PyTorch, FastAPI, Docker, Kubernetes or Cloud Run\n- GitHub (version control and project management)\n- Google Cloud Platform (GCP) — Vertex AI, Cloud Run, Cloud Storage, BigQuery\n- MLflow or Weights & Biases (experiment tracking)\n- Streamlit, Gradio, or Next.js (frontend, if applicable)\n- Slack / Notion (team communication and documentation)\n\n## Topics\n- Project scoping and requirements gathering\n- Agile/Scrum for AI projects\n- Data collection, labelling, and governance\n- Model selection and architecture design\n- Production deployment and DevOps\n- Stakeholder communication and demos\n- Technical writing and documentation\n- Ethical review of the solution\n\n## Projects & Capstone\n\n### Capstone Project: Industry AI Solution\nEach team works on a unique project aligned with an industry partner's or self-defined challenge. Past capstone projects have included:\n\n- **Real-Time Inventory Demand Forecasting**: Built a time-series forecasting system using LSTMs and deployed it on GCP Vertex AI with a Streamlit dashboard for supply chain managers. The model reduced forecast error (MAE) by 23% compared to the client's existing system.\n\n- **Medical Image Screening Tool**: Developed a CNN-based screening classifier to flag potential anomalies in chest X-rays. Achieved 91% sensitivity with a custom U-Net segmentation overlay for radiologist review. Deployed as a HIPAA-aware REST API.\n\n- **Multilingual Customer Support Chatbot**: Fine-tuned a multilingual LLM (mBERT) for intent classification across English, French, and Spanish. Built a RAG-powered knowledge base and integrated with a ticketing system. Reduced first-response time by 40% in pilot testing.\n\n- **Predictive Maintenance System**: Used sensor data from manufacturing equipment to predict failures 48 hours in advance using an ensemble of gradient boosting and LSTM models. Deployed on Edge hardware with Docker for on-premises inference.\n\n- **AI-Powered Resume Screener**: Built a fair and explainable resume ranking system using NLP and SHAP-based explanations. Included a bias audit (AIF360) and produced a model card documenting fairness metrics across demographic groups.\n\n### Deliverables\n- Working software system (deployed and demo-able)\n- GitHub repository with documentation and CI/CD\n- Technical report (15–20 pages)\n- Poster and live presentation at the end-of-semester showcase\n- Ethics and impact statement\n\n## Prerequisites\n- Completion of all Semester 1 and Semester 2 courses (excluding AIDI-2005 itself)"
+}

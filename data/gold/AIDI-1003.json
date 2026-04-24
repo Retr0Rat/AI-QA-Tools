@@ -1,0 +1,22 @@
+{
+  "code": "AIDI-1003",
+  "name": "Capstone Term I",
+  "semester": 1,
+  "credits": 3,
+  "description": "First term capstone project where students apply Semester 1 skills to build a focused AI solution as a team.",
+  "tools": [
+    "Python",
+    "GitHub",
+    "Jupyter Notebooks"
+  ],
+  "topics": [
+    "Project planning and scoping",
+    "Team collaboration",
+    "AI solution design",
+    "Proof of concept development",
+    "Presentation and documentation"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nStudents work in teams to design and build an AI-powered application using skills learned across Semester 1 courses. The capstone emphasizes teamwork, project management, and delivering a working proof of concept.\n\n## Topics\n- Project planning and scoping\n- Team collaboration\n- AI solution design\n- Proof of concept development\n- Presentation and documentation\n\n## Tools\n- Python\n- GitHub\n- Jupyter Notebooks\n\n## Projects\n- Team AI proof of concept project"
+}

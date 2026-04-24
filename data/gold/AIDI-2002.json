@@ -1,0 +1,50 @@
+{
+  "code": "AIDI-2002",
+  "name": "Computer Vision",
+  "semester": 2,
+  "credits": 3,
+  "description": "Principles and applications of computer vision. Students build systems for image classification, object detection, image segmentation, and video analysis using deep learning frameworks.",
+  "tools": [
+    "Python 3.x",
+    "OpenCV",
+    "TensorFlow 2.x / Keras",
+    "PyTorch",
+    "torchvision",
+    "Ultralytics YOLO (v8)",
+    "Roboflow (dataset management and annotation)",
+    "Albumentations (image augmentation)",
+    "Weights & Biases",
+    "Google Colab (GPU)",
+    "Pillow (PIL)",
+    "Matplotlib"
+  ],
+  "topics": [
+    "Image representation, color spaces, and filtering",
+    "Edge detection, morphological operations, and feature descriptors (SIFT, ORB)",
+    "Image classification with CNNs",
+    "Data augmentation strategies",
+    "Object detection: YOLO, Faster R-CNN, SSD",
+    "Semantic segmentation (U-Net, DeepLab)",
+    "Instance segmentation (Mask R-CNN)",
+    "Pose estimation",
+    "Video analysis and optical flow",
+    "Image generation with GANs and diffusion models (introductory)",
+    "Dataset annotation and management"
+  ],
+  "projects": [
+    {
+      "name": "Project 1: Custom Object Detector",
+      "description": "Students collect or source a dataset (minimum 500 images), annotate it using Roboflow, and fine-tune a YOLOv8 model. The trained detector is evaluated and demonstrated on a video stream or test set.",
+      "type": "assignment"
+    },
+    {
+      "name": "Project 2: Image Segmentation Application",
+      "description": "Build a semantic segmentation pipeline for a domain-specific task (e.g., road segmentation for autonomous driving, medical image tissue segmentation) using U-Net with a pre-trained encoder.",
+      "type": "assignment"
+    }
+  ],
+  "prerequisites": [
+    "AIDI-2000: Deep Learning and Neural Networks"
+  ],
+  "raw_content": "## Overview\nComputer vision enables machines to interpret and understand visual information. This course covers image processing fundamentals, classical CV techniques, and modern deep learning approaches. Students build vision pipelines for detection, segmentation, and generation tasks using industry tools.\n\n## Tools & Technologies\n- Python 3.x\n- OpenCV\n- TensorFlow 2.x / Keras\n- PyTorch\n- torchvision\n- Ultralytics YOLO (v8)\n- Roboflow (dataset management and annotation)\n- Albumentations (image augmentation)\n- Weights & Biases\n- Google Colab (GPU)\n- Pillow (PIL)\n- Matplotlib\n\n## Topics\n- Image representation, color spaces, and filtering\n- Edge detection, morphological operations, and feature descriptors (SIFT, ORB)\n- Image classification with CNNs\n- Data augmentation strategies\n- Object detection: YOLO, Faster R-CNN, SSD\n- Semantic segmentation (U-Net, DeepLab)\n- Instance segmentation (Mask R-CNN)\n- Pose estimation\n- Video analysis and optical flow\n- Image generation with GANs and diffusion models (introductory)\n- Dataset annotation and management\n\n## Projects & Capstone\n\n### Project 1: Custom Object Detector\nStudents collect or source a dataset (minimum 500 images), annotate it using Roboflow, and fine-tune a YOLOv8 model. The trained detector is evaluated and demonstrated on a video stream or test set.\n\n### Project 2: Image Segmentation Application\nBuild a semantic segmentation pipeline for a domain-specific task (e.g., road segmentation for autonomous driving, medical image tissue segmentation) using U-Net with a pre-trained encoder.\n\n## Prerequisites\n- AIDI-2000: Deep Learning and Neural Networks"
+}

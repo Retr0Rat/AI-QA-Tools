@@ -1,0 +1,23 @@
+{
+  "code": "AIDI-1002",
+  "name": "AI Algorithms I",
+  "semester": 1,
+  "credits": 3,
+  "description": "Foundational AI algorithms including search, optimization, and classical machine learning. Students implement and evaluate core algorithms used in AI systems.",
+  "tools": [
+    "Python",
+    "scikit-learn",
+    "NumPy",
+    "Pandas"
+  ],
+  "topics": [
+    "Search algorithms",
+    "Optimization techniques",
+    "Supervised learning",
+    "Unsupervised learning",
+    "Model evaluation"
+  ],
+  "projects": [],
+  "prerequisites": [],
+  "raw_content": "## Overview\nThis course covers the algorithmic foundations of AI, from classical search and planning to supervised and unsupervised machine learning algorithms.\n\n## Topics\n- Search algorithms\n- Optimization techniques\n- Supervised learning\n- Unsupervised learning\n- Model evaluation\n\n## Tools\n- Python\n- scikit-learn\n- NumPy\n- Pandas\n\n## Projects\n- Classification and clustering assignments\n- Algorithm comparison studies"
+}
